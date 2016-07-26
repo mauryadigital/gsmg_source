@@ -31,7 +31,12 @@ public class LoginController {
 	public String showLogin() {
 		return "login";
 	}
-
+	
+	@RequestMapping("/loggedOut")
+	public String showLoggedout() {
+		return "loggedOut";
+	}
+	
 	@RequestMapping("/createAccount")
 	public String showCreateAccount(Model model) {
 		model.addAttribute("account", new Account());

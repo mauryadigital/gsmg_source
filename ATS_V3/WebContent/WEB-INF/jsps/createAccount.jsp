@@ -68,12 +68,12 @@
 			</tr>
 			<tr>
 				<td>Password:</td>
-				<td><uf:input id="password" name="password" path="password" type="text"></uf:input>
+				<td><uf:input id="password" type="password" name="password" path="password"></uf:input>
 					<uf:errors path="password" cssClass="error"></uf:errors></td>
 			</tr>
 			<tr>
 				<td>ConfirmPassword:</td>
-				<td><input id = "confirmPassword" name="confirmPassword" type="text">
+				<td><input id = "confirmPassword"  type="password" name="confirmPassword">
 					<div id="match"></div></td>
 			</tr>
 			<tr>

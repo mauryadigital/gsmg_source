@@ -11,5 +11,7 @@
 <body>
 <p><a href="${pageContext.request.contextPath}/users">Show Users</a></p>
 <p><a href="${pageContext.request.contextPath}/createUser">Create User</a></p>
+<p><a href="${pageContext.request.contextPath}/loggedOut">LogOut</a></p>
+<%-- <p><a href="<c:url value='/j_spring_security_logout'/>">Logout</a></p> --%>
 </body>
 </html>

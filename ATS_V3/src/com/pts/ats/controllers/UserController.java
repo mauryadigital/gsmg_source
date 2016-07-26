@@ -11,4 +11,8 @@ public class UserController {
 	public String showHome() {	
 		return "index";
 	}
+	@RequestMapping("/admin")
+	public String showAdmin() {	
+		return "admin";
+	}
 }
